@@ -1,0 +1,19 @@
+# BOF
+
+# 
+cert-manager:
+  installCRDs: true
+
+#
+letsencrypt:
+  email: davekpatrick@icloud.com
+  
+  staging:
+    name: letsencrypt-staging
+    server: https://acme-staging-v02.api.letsencrypt.org/directory
+
+  production:
+    name: letsencrypt-production
+    server: https://acme-v02.api.letsencrypt.org/directory
+
+# EOF
